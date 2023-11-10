@@ -227,7 +227,7 @@ select {
 }
 
 .header-m a:nth-of-type(1) {
-    background-color: #768cff;
+    background-color: #6279ee;
     color: #fff;
 }
 
@@ -538,12 +538,16 @@ table {
 
 td,
 th {
-    padding: 24px;
+    padding: 20px;
     text-align: left;
     font-size: 15px;
     color: #2b2b37;
     line-height: 1.7;
     text-wrap: nowrap;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
 }
 
 th {
